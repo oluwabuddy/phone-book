@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.top{
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+.top label{
+  text-align: left;
+  display: block;
+  font-size: 20px;
+  color: #f1356d;
+  border-radius: 10px;
+}
+.top h1{
+  font-size: 50px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.top h2{
+  font-size: 30px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.top input {
+  width: 80%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: inline;
+  font-size: 20px;
+}
+ input.button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Contact list Table */
+/* .phone-list {
+  width: 100%;
+  margin-top: 30px;
+} */
+
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+
+}
+
+tr:nth-child(even){
+  background-color: #f1356d;
+}
+
+
+button{
+  background: #f1356d;
+  color: #fff;
+  border-left: 0;
+  padding: 8px;
+  margin: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+footer{
+  margin-top: 30px;
+  text-align: center;
+  color: #f1356d;
+}
